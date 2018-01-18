@@ -1,5 +1,6 @@
 const express = require('express');
-const publicweb = process.env.PUBLICWEB || './dist';
+const publicweb = './';
+console.log(publicweb);
 const app = express();
 app.use(express.static(publicweb));
 console.log(`serving ${publicweb}`);

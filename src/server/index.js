@@ -1,5 +1,5 @@
 const express = require('express');
-const publicweb = './';
+const publicweb = '/';
 console.log(publicweb);
 const app = express();
 app.use(express.static(publicweb));
